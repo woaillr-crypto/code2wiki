@@ -1,0 +1,51 @@
+{
+  "project": "<PROJECT_DIR>",
+  "output": "<OUTPUT_DIR>",
+  "language": "typescript",
+  "summary": {
+    "total_files_scanned": 6,
+    "ts_files": 4,
+    "build_files": 1,
+    "auxiliary_knowledge_files": 0,
+    "domain_count": 2,
+    "dependencies": 6
+  },
+  "project_context": {
+    "rpc_framework": "NestJS",
+    "mq_framework": "BullMQ",
+    "has_redis": true,
+    "has_typeorm": true,
+    "has_prisma": false
+  },
+  "domains": [
+    [
+      "order",
+      4
+    ],
+    [
+      "user",
+      1
+    ]
+  ],
+  "roles": [
+    [
+      "entity",
+      2
+    ],
+    [
+      "controller",
+      1
+    ],
+    [
+      "mq-consumer",
+      1
+    ],
+    [
+      "service",
+      1
+    ]
+  ],
+  "build_files": [
+    "package.json"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "project": "<PROJECT_DIR>",
+  "output": "<OUTPUT_DIR>",
+  "language": "java",
+  "summary": {
+    "total_files_scanned": 7,
+    "java_files": 6,
+    "config_files": 1,
+    "sql_files": 0,
+    "build_files": 1,
+    "auxiliary_knowledge_files": 0,
+    "domain_count": 1,
+    "pom_dependencies": 4,
+    "mybatis_xmls": 0
+  },
+  "project_context": {
+    "mq_framework": "RocketMQ",
+    "rpc_framework": "Feign",
+    "has_redis": false,
+    "has_xxljob": false,
+    "has_dubbo": false,
+    "has_eureka": false,
+    "has_nacos": false,
+    "rpc_clients": 0
+  },
+  "domains": [
+    [
+      "order",
+      6
+    ]
+  ],
+  "roles": [
+    [
+      "repository",
+      1
+    ],
+    [
+      "other",
+      1
+    ],
+    [
+      "entity",
+      1
+    ],
+    [
+      "controller",
+      1
+    ],
+    [
+      "mq-consumer",
+      1
+    ],
+    [
+      "service",
+      1
+    ]
+  ],
+  "build_files": [
+    "pom.xml"
+  ]
+}

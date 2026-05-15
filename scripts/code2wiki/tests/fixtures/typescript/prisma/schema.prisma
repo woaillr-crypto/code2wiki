@@ -1,0 +1,35 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+/// User of the e-commerce platform.
+model User {
+  id    Int    @id @default(autoincrement())
+  email String @unique
+  name  String?
+  orders Order[]
+
+  @@map("t_user")
+}
+
+model Order {
+  id       Int    @id @default(autoincrement())
+  userId   Int
+  amount   Int
+  status   String
+  user     User   @relation(fields: [userId], references: [id])
+
+  @@map("t_order")
+}
+
+enum OrderStatus {
+  CREATED
+  PAID
+  SHIPPED
+  CANCELLED
+}

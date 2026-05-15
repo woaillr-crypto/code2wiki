@@ -1,0 +1,63 @@
+{
+  "project": "<PROJECT_DIR>",
+  "output": "<OUTPUT_DIR>",
+  "language": "python",
+  "summary": {
+    "total_files_scanned": 9,
+    "python_files": 8,
+    "config_files": 1,
+    "build_files": 1,
+    "auxiliary_knowledge_files": 0,
+    "domain_count": 5,
+    "dependencies": 7
+  },
+  "project_context": {
+    "rpc_framework": "FastAPI",
+    "mq_framework": "Celery",
+    "has_redis": true,
+    "has_scheduler": true
+  },
+  "domains": [
+    [
+      "order",
+      3
+    ],
+    [
+      "user",
+      2
+    ],
+    [
+      "tasks",
+      1
+    ],
+    [
+      "refunds",
+      1
+    ],
+    [
+      "refund",
+      1
+    ]
+  ],
+  "roles": [
+    [
+      "controller",
+      4
+    ],
+    [
+      "service",
+      2
+    ],
+    [
+      "mq-consumer",
+      1
+    ],
+    [
+      "entity",
+      1
+    ]
+  ],
+  "build_files": [
+    "pyproject.toml"
+  ]
+}

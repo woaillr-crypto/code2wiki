@@ -1,0 +1,43 @@
+{
+  "project": "<PROJECT_DIR>",
+  "output": "<OUTPUT_DIR>",
+  "language": "typescript",
+  "summary": {
+    "total_files_scanned": 9,
+    "ts_files": 3,
+    "build_files": 1,
+    "auxiliary_knowledge_files": 0,
+    "domain_count": 1,
+    "dependencies": 5
+  },
+  "project_context": {
+    "rpc_framework": "NestJS",
+    "mq_framework": "BullMQ",
+    "has_redis": true,
+    "has_typeorm": true,
+    "has_prisma": false
+  },
+  "domains": [
+    [
+      "cart",
+      3
+    ]
+  ],
+  "roles": [
+    [
+      "controller",
+      1
+    ],
+    [
+      "mq-consumer",
+      1
+    ],
+    [
+      "entity",
+      1
+    ]
+  ],
+  "build_files": [
+    "frontend-ts/package.json"
+  ]
+}

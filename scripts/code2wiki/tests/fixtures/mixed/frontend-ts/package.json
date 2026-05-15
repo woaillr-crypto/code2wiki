@@ -1,0 +1,11 @@
+{
+  "name": "shop-frontend",
+  "version": "0.1.0",
+  "dependencies": {
+    "@nestjs/core": "^10.0.0",
+    "@nestjs/common": "^10.0.0",
+    "typeorm": "^0.3.20",
+    "bullmq": "^4.13.0",
+    "ioredis": "^5.3.0"
+  }
+}

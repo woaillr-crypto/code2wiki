@@ -1,0 +1,42 @@
+{
+  "project": "<PROJECT_DIR>",
+  "output": "<OUTPUT_DIR>",
+  "language": "go",
+  "summary": {
+    "total_files_scanned": 4,
+    "go_files": 3,
+    "build_files": 1,
+    "auxiliary_knowledge_files": 0,
+    "domain_count": 1,
+    "dependencies": 4
+  },
+  "project_context": {
+    "rpc_framework": "Gin",
+    "mq_framework": "",
+    "has_redis": true,
+    "has_gorm": true
+  },
+  "domains": [
+    [
+      "order",
+      3
+    ]
+  ],
+  "roles": [
+    [
+      "controller",
+      1
+    ],
+    [
+      "service",
+      1
+    ],
+    [
+      "entity",
+      1
+    ]
+  ],
+  "build_files": [
+    "go.mod"
+  ]
+}

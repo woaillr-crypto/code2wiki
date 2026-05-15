@@ -1,0 +1,55 @@
+{
+  "project": "<PROJECT_DIR>",
+  "output": "<OUTPUT_DIR>",
+  "language": "kotlin",
+  "framework": "Ktor",
+  "summary": {
+    "total_files_scanned": 6,
+    "kotlin_files": 6,
+    "build_files": 2,
+    "auxiliary_knowledge_files": 0,
+    "domain_count": 3,
+    "dependencies": 6
+  },
+  "project_context": {
+    "rpc_framework": "Ktor",
+    "has_redis": false,
+    "has_exposed": true
+  },
+  "domains": [
+    [
+      "order",
+      4
+    ],
+    [
+      "build-gradle-kts",
+      1
+    ],
+    [
+      "settings-gradle-kts",
+      1
+    ]
+  ],
+  "roles": [
+    [
+      "support",
+      2
+    ],
+    [
+      "service",
+      2
+    ],
+    [
+      "repository",
+      1
+    ],
+    [
+      "controller",
+      1
+    ]
+  ],
+  "build_files": [
+    "build.gradle.kts",
+    "settings.gradle.kts"
+  ]
+}

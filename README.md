@@ -4,9 +4,14 @@
     <strong>AI Agent Skill — Turn 100K–500K+ line backend codebases into structured business knowledge maps in minutes, not weeks.</strong>
   </p>
   <p align="center">
+    Code to Wiki | Code Documentation Generator | LLM Context Builder | Codebase Knowledge Map
+  </p>
+  <p align="center">
     <a href="#installation">Install</a> · <a href="#effectiveness">Effectiveness</a> · <a href="#中文说明">中文</a> · <a href="#how-it-works">How It Works</a>
   </p>
 </p>
+
+> **code2wiki** = code documentation + business wiki + LLM context layer — one skill to understand any backend codebase.
 
 ---
 
@@ -221,6 +226,7 @@ MIT
 <p align="center">
   <h2 align="center">code2wiki — 让 AI 3 分钟读懂 50 万行代码的业务逻辑</h2>
   <p align="center"><strong>AI Agent Skill：为大型后端项目自动生成业务上下文层（Business Context Layer），把「代码黑箱」变成「业务知识地图」。</strong></p>
+  <p align="center">代码文档生成 | 代码转 Wiki | 项目知识地图 | LLM 上下文构建 | 代码理解</p>
 </p>
 
 ## 痛点

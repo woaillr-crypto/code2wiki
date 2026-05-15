@@ -34,14 +34,14 @@ You have a 200K-line Java/Go/Python backend. A new developer joins — they spen
 
 ```bash
 # Install via skills CLI (recommended)
-npx skills add wang/code2wiki
+npx skills add woaillr-crypto/code2wiki
 
 # Or install to a specific agent
-npx skills add wang/code2wiki -a claude-code
-npx skills add wang/code2wiki -a cursor
+npx skills add woaillr-crypto/code2wiki -a claude-code
+npx skills add woaillr-crypto/code2wiki -a cursor
 
 # Or install globally
-npx skills add wang/code2wiki -g
+npx skills add woaillr-crypto/code2wiki -g
 ```
 
 After installation, simply tell your AI agent:
@@ -53,7 +53,7 @@ The agent will automatically invoke the skill, run the scanner, and begin AI enr
 ### Manual Installation
 
 ```bash
-git clone https://github.com/wang/code2wiki.git
+git clone https://github.com/woaillr-crypto/code2wiki.git
 # Copy the SKILL.md and scripts/ to your agent's skills directory
 ```
 
@@ -247,14 +247,14 @@ MIT
 
 ```bash
 # 通过 skills CLI 安装（推荐）
-npx skills add wang/code2wiki
+npx skills add woaillr-crypto/code2wiki
 
 # 安装到指定 Agent
-npx skills add wang/code2wiki -a claude-code
-npx skills add wang/code2wiki -a cursor
+npx skills add woaillr-crypto/code2wiki -a claude-code
+npx skills add woaillr-crypto/code2wiki -a cursor
 
 # 全局安装
-npx skills add wang/code2wiki -g
+npx skills add woaillr-crypto/code2wiki -g
 ```
 
 安装后，直接对你的 AI 助手说：
@@ -266,7 +266,7 @@ Agent 会自动调用 Skill，运行扫描器，并开始 AI 富化。
 ### 手动安装
 
 ```bash
-git clone https://github.com/wang/code2wiki.git
+git clone https://github.com/woaillr-crypto/code2wiki.git
 # 将 SKILL.md 和 scripts/ 复制到你的 Agent skills 目录
 ```
 
